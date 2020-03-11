@@ -1,4 +1,4 @@
-package com.nagarro.entity;
+package com.nagarro.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -15,7 +15,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.nagarro.entity.User;
+import com.nagarro.model.User;
 import com.nagarro.service.UserService;
 
 @Controller

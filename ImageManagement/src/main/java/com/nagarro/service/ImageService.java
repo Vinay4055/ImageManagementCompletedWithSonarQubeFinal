@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.nagarro.dao.ImageDao;
-import com.nagarro.entity.Image;
+import com.nagarro.model.Image;
 @Service
 public class ImageService  { 
 

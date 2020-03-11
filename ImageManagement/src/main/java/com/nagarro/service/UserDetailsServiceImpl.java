@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.nagarro.entity.User;
+import com.nagarro.model.User;
 
 @Service
 @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)

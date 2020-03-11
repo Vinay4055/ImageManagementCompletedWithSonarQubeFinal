@@ -10,8 +10,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.nagarro.dao.ImageDao;
-import com.nagarro.entity.Image;
-import com.nagarro.entity.User;
+import com.nagarro.model.Image;
+import com.nagarro.model.User;
 import com.nagarro.repository.ImageRepository;
 import com.nagarro.service.UserService;
 

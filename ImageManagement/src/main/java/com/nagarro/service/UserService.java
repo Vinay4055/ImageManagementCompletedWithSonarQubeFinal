@@ -5,7 +5,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.nagarro.dao.UserDao;
-import com.nagarro.entity.User;
+import com.nagarro.model.User;
 
 @Service
 public class UserService {
