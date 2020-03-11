@@ -32,4 +32,161 @@
 ""2020-03-11 09:13:35 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 ""2020-03-11 09:13:35 - Initializing Servlet 'dispatcherServlet'
 ""2020-03-11 09:13:35 - Completed initialization in 12 ms
+""2020-03-11 10:57:30 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m27s837ms648µs).
+""2020-03-11 10:58:03 - Starting ImageManagementApplicationTests on vinayprajapati with PID 1424 (started by vinayprajapati in E:\ImageManagement)
+""2020-03-11 10:58:03 - No active profile set, falling back to default profiles: default
+""2020-03-11 10:58:04 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 10:58:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-11 10:58:04 - Finished Spring Data repository scanning in 49ms. Found 2 JPA repository interfaces.
+""2020-03-11 10:58:04 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 10:58:04 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-11 10:58:04 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.ImageDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 10:58:04 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.UserDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 10:58:04 - Finished Spring Data repository scanning in 7ms. Found 0 LDAP repository interfaces.
+""2020-03-11 10:58:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-11 10:58:05 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-11 10:58:05 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-11 10:58:05 - HikariPool-1 - Starting...
+""2020-03-11 10:58:06 - HikariPool-1 - Start completed.
+""2020-03-11 10:58:06 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-11 10:58:06 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-11 10:58:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 10:58:07 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10d905c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@da5d5e1, org.springframework.security.web.header.HeaderWriterFilter@73385d3f, org.springframework.security.web.authentication.logout.LogoutFilter@35454c7a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5bde6148, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@49e62b17, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e4b54d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@460eb276, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f6f4ac4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62883f8a, org.springframework.security.web.session.SessionManagementFilter@7fc1fd31, org.springframework.security.web.access.ExceptionTranslationFilter@131c0b6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ae42248]
+""2020-03-11 10:58:08 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-11 10:58:08 - Adding welcome page template: index
+""2020-03-11 10:58:08 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-11 10:58:09 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-11 10:58:09 - Started ImageManagementApplicationTests in 5.566 seconds (JVM running for 6.619)
+""2020-03-11 10:58:09 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-11 10:58:09 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 10:58:09 - HikariPool-1 - Shutdown initiated...
+""2020-03-11 10:58:09 - HikariPool-1 - Shutdown completed.
+""2020-03-11 11:02:24 - Application shutdown requested.
+""2020-03-11 11:02:24 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:02:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:02:24 - HikariPool-1 - Shutdown initiated...
+""2020-03-11 11:02:24 - HikariPool-1 - Shutdown completed.
+""2020-03-11 11:03:00 - Starting ImageManagementApplicationTests on vinayprajapati with PID 10836 (started by vinayprajapati in E:\ImageManagement)
+""2020-03-11 11:03:00 - No active profile set, falling back to default profiles: default
+""2020-03-11 11:03:01 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:03:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-11 11:03:02 - Finished Spring Data repository scanning in 142ms. Found 2 JPA repository interfaces.
+""2020-03-11 11:03:02 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:03:02 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-11 11:03:02 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.ImageDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:03:02 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.UserDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:03:02 - Finished Spring Data repository scanning in 21ms. Found 0 LDAP repository interfaces.
+""2020-03-11 11:03:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-11 11:03:03 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-11 11:03:03 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-11 11:03:04 - HikariPool-1 - Starting...
+""2020-03-11 11:03:04 - HikariPool-1 - Start completed.
+""2020-03-11 11:03:04 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-11 11:03:06 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-11 11:03:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:03:08 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bde6148, org.springframework.security.web.context.SecurityContextPersistenceFilter@2166c48a, org.springframework.security.web.header.HeaderWriterFilter@7f030c72, org.springframework.security.web.authentication.logout.LogoutFilter@61eab26b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fa98a22, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e5d5ac1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3cead673, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73385d3f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cd7f381, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53ba25ff, org.springframework.security.web.session.SessionManagementFilter@18513c23, org.springframework.security.web.access.ExceptionTranslationFilter@3c4059a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c2bea52]
+""2020-03-11 11:03:09 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:03:09 - Adding welcome page template: index
+""2020-03-11 11:03:10 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-11 11:03:10 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-11 11:03:10 - Started ImageManagementApplicationTests in 11.273 seconds (JVM running for 12.853)
+""2020-03-11 11:03:11 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:03:11 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:03:11 - HikariPool-1 - Shutdown initiated...
+""2020-03-11 11:03:11 - HikariPool-1 - Shutdown completed.
+""2020-03-11 11:04:40 - Starting ImageManagementApplication on vinayprajapati with PID 10432 (E:\ImageManagement\target\classes started by vinayprajapati in E:\ImageManagement)
+""2020-03-11 11:04:40 - No active profile set, falling back to default profiles: default
+""2020-03-11 11:04:41 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:04:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-11 11:04:41 - Finished Spring Data repository scanning in 74ms. Found 2 JPA repository interfaces.
+""2020-03-11 11:04:41 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:04:41 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-11 11:04:41 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.ImageDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:04:41 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.UserDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:04:41 - Finished Spring Data repository scanning in 7ms. Found 0 LDAP repository interfaces.
+""2020-03-11 11:04:41 - Tomcat initialized with port(s): 9090 (http)
+""2020-03-11 11:04:41 - Starting service [Tomcat]
+""2020-03-11 11:04:41 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+""2020-03-11 11:04:42 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+""2020-03-11 11:04:42 - Initializing Spring embedded WebApplicationContext
+""2020-03-11 11:04:42 - Root WebApplicationContext: initialization completed in 1813 ms
+""2020-03-11 11:04:42 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-11 11:04:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-11 11:04:42 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-11 11:04:42 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-11 11:04:42 - HikariPool-1 - Starting...
+""2020-03-11 11:04:42 - HikariPool-1 - Start completed.
+""2020-03-11 11:04:42 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-11 11:04:43 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-11 11:04:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:04:44 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79b63325, org.springframework.security.web.context.SecurityContextPersistenceFilter@35e07e19, org.springframework.security.web.header.HeaderWriterFilter@7f305f34, org.springframework.security.web.authentication.logout.LogoutFilter@995ad50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3eb9c575, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20dd5870, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@708769b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2036f83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b35c7aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32e830a0, org.springframework.security.web.session.SessionManagementFilter@601d295, org.springframework.security.web.access.ExceptionTranslationFilter@52d9d817, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f402027]
+""2020-03-11 11:04:44 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:04:44 - Adding welcome page template: index
+""2020-03-11 11:04:44 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-11 11:04:44 - Tomcat started on port(s): 9090 (http) with context path ''
+""2020-03-11 11:04:44 - Started ImageManagementApplication in 4.704 seconds (JVM running for 5.442)
+""2020-03-11 11:04:46 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-03-11 11:04:46 - Initializing Servlet 'dispatcherServlet'
+""2020-03-11 11:04:46 - Completed initialization in 10 ms
+""2020-03-11 11:05:21 - Application shutdown requested.
+""2020-03-11 11:05:21 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:05:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:05:21 - HikariPool-1 - Shutdown initiated...
+""2020-03-11 11:05:21 - HikariPool-1 - Shutdown completed.
+""2020-03-11 11:06:00 - Starting ImageManagementApplicationTests on vinayprajapati with PID 17380 (started by vinayprajapati in E:\ImageManagement)
+""2020-03-11 11:06:00 - No active profile set, falling back to default profiles: default
+""2020-03-11 11:06:01 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:06:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-11 11:06:01 - Finished Spring Data repository scanning in 94ms. Found 2 JPA repository interfaces.
+""2020-03-11 11:06:01 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:06:01 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-11 11:06:01 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.ImageDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:06:01 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.UserDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:06:01 - Finished Spring Data repository scanning in 11ms. Found 0 LDAP repository interfaces.
+""2020-03-11 11:06:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-11 11:06:03 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-11 11:06:03 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-11 11:06:03 - HikariPool-1 - Starting...
+""2020-03-11 11:06:03 - HikariPool-1 - Start completed.
+""2020-03-11 11:06:03 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-11 11:06:04 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-11 11:06:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:06:06 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62883f8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@460eb276, org.springframework.security.web.header.HeaderWriterFilter@7fc1fd31, org.springframework.security.web.authentication.logout.LogoutFilter@319aa9ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53ba25ff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d685f4e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36665c11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cd7f381, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49e62b17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e49b011, org.springframework.security.web.session.SessionManagementFilter@4449a60b, org.springframework.security.web.access.ExceptionTranslationFilter@68d8ae27, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cf984d9]
+""2020-03-11 11:06:06 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:06:07 - Adding welcome page template: index
+""2020-03-11 11:06:07 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-11 11:06:08 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-11 11:06:08 - Started ImageManagementApplicationTests in 8.195 seconds (JVM running for 9.413)
+""2020-03-11 11:06:08 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:06:08 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:06:08 - HikariPool-1 - Shutdown initiated...
+""2020-03-11 11:06:08 - HikariPool-1 - Shutdown completed.
+""2020-03-11 11:07:17 - Starting ImageManagementApplicationTests on vinayprajapati with PID 15164 (started by vinayprajapati in E:\ImageManagement)
+""2020-03-11 11:07:17 - No active profile set, falling back to default profiles: default
+""2020-03-11 11:07:18 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:07:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-03-11 11:07:18 - Finished Spring Data repository scanning in 86ms. Found 2 JPA repository interfaces.
+""2020-03-11 11:07:18 - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-03-11 11:07:18 - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+""2020-03-11 11:07:18 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.ImageDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:07:18 - Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.nagarro.dao.UserDao. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+""2020-03-11 11:07:18 - Finished Spring Data repository scanning in 10ms. Found 0 LDAP repository interfaces.
+""2020-03-11 11:07:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-03-11 11:07:19 - HHH000412: Hibernate ORM core version 5.4.12.Final
+""2020-03-11 11:07:19 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-03-11 11:07:20 - HikariPool-1 - Starting...
+""2020-03-11 11:07:20 - HikariPool-1 - Start completed.
+""2020-03-11 11:07:20 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+""2020-03-11 11:07:21 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-03-11 11:07:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:07:22 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e4b54d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d7d8911, org.springframework.security.web.header.HeaderWriterFilter@6814262d, org.springframework.security.web.authentication.logout.LogoutFilter@50f3ba6a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3cead673, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@288409f0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62883f8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ffe3d42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@727dcc64, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36665c11, org.springframework.security.web.session.SessionManagementFilter@75a9cc24, org.springframework.security.web.access.ExceptionTranslationFilter@7f030c72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40c28b0d]
+""2020-03-11 11:07:23 - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:07:23 - Adding welcome page template: index
+""2020-03-11 11:07:23 - Property 'userDn' not set - anonymous context will be used for read-write operations
+""2020-03-11 11:07:24 - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-03-11 11:07:24 - Started ImageManagementApplicationTests in 7.194 seconds (JVM running for 8.357)
+""2020-03-11 11:07:24 - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-03-11 11:07:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-03-11 11:07:24 - HikariPool-1 - Shutdown initiated...
+""2020-03-11 11:07:24 - HikariPool-1 - Shutdown completed.
 "
